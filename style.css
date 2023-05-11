@@ -1,0 +1,64 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+/* 
+  Hexadecimal é um sistema de números que representa uma pixelada que vai gerar uma cor pelo padrão RGB (0 - f) 0 1 2 3 4 5 6 7 8 9 A B C D E F
+
+  RGB - Red Green Blue (Vermelho, Verde, Azul).
+
+  000 - mais escuro (preto)
+
+  FFF - mais claro (branco)
+
+  9E (R) 24 (G) 3D (B)
+*/
+
+    color: #9E243D;
+    font-size: 24px;
+  }
+  
+  #area-citacao {
+/* 
+px - UM
+
+              ------------------------------
+              |                              |
+              |                              |
+              |                              |
+              |                              |
+              |                              |
+              |                              |
+              |                              |
+              ------------------------------
+*/
+    margin: 20px auto;
+    padding: 10px;
+    width: 400px;
+    height: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    overflow: auto;
+  }
+  
+  #btn-gerar {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #btn-gerar:hover {
+    background-color: #45a049;
+  }  
