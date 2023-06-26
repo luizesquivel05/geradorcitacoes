@@ -21,4 +21,25 @@ var citacoes = [
     var citacao = citacoes[randomIndex];
     areaCitacao.innerHTML = citacao;
   }
+
+  var quotes = [
+    "Believe in yourself and all that you are. Know that there is something inside you that is greater than any obstacle.",
+    "The only way to do great work is to love what you do.",
+    "Life is 10% what happens to me and 90% how I react to it.",
+    "If you set your goals ridiculously high and it's a failure, you will fail above everyone else's success.",
+    "Success is the sum of small efforts repeated day in and day out.",
+    "The most effective way to do it is to do it.",
+    "Perseverance is the path to success.",
+    "You are capable of creating an extraordinary life.",
+    "The only place where success comes before work is in the dictionary.",
+    "Success is not final, failure is not fatal: It is the courage to continue that counts."
+  ];
+  
+  // Function to generate a random quote
+  function generateQuote() {
+    var quoteArea = document.getElementById("quote-area");
+    var randomIndex = Math.floor(Math.random() * quotes.length);
+    var quote = quotes[randomIndex];
+    quoteArea.innerHTML = quote;
+  }
   
